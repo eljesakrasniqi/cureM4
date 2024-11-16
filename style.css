@@ -1,0 +1,625 @@
+header,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: "roboto_bold";
+    src: url("../font/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "roboto_regular";
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto_medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+.container {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+header ul li {
+    padding-left: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: fixed;
+    left: 70%;
+    list-style-type: none;
+    display: flex;
+    font-family: "roboto_regular";
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+    font-family: "roboto_regular";
+}
+
+header ul li a:hover {
+    color: #919191;
+    border-bottom: 1px solid #000000;
+}
+
+header img {
+    width: 130px;
+    border-radius: 18px;
+}
+
+.sign_in a {
+    border: 1px solid #103178;
+    background-color: #143b90;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.sign_in a:hover {
+    background-color: #3560bb;
+    color: #000000;
+}
+/* main_part */
+.main_part .row {
+    background-color: #103178;
+    height: 85vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_part .row .col {
+    flex-basis: 48%;
+    width: 100%;
+}
+
+.main_part .row .col h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-family: "roboto_bold";
+}
+
+.main_part .row .col p {
+    font-size: 23px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    font-family: "roboto_regular";
+}
+
+.main_part .row .col a {
+    border: 1px solid #ffc800;
+    background-color: #ffc800;
+    padding: 15px 45px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    font-family: "roboto_medium";
+}
+
+.main_part .row .col a:hover {
+    border-width: 3px;
+    background-color: #fff;
+    color: #ffc800;
+}
+
+/* popularCategories */
+.popularCategories .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularCategories .container .row .col {
+    flex-basis: 28%;
+    width: 100%;
+}
+
+.popularCategories .container .row .col {
+    border: 1px solid #F0F2F5;
+    background-color: #F0F2F5;
+    padding: 10px;
+}
+
+.popularCategories .container h1 {
+    color: #103178;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    font-family: "roboto_bold";
+}
+
+.popularCategories .container .row .col h3 {
+    font-size: 30px;
+    color: #103178;
+    font-family: "roboto_medium";
+}
+
+.popularCategories .container .row .col a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #103178;
+    padding: 10px 20px;
+    border: 1px solids;
+    background-color: #fff;
+    border-radius: 100px;
+    font-family: "roboto_medium";
+}
+
+.popularCategories .container .row .col a:hover {
+    background-color: #143b90;
+    color: #fff;
+}
+
+.popularCategories .container .row .col img {
+    padding-left: 70px;
+}
+
+.services .container .row {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .container .row .col {
+    padding-left: 20px;
+    flex-basis: 13%;
+    width: 100%;
+}
+
+.services .container .row .col h5 {
+    font-size: 20px;
+    color: #103178;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "roboto_medium";
+}
+
+/* antibacterial_glove */
+.antibacterial_glove .row {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #F0F2F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 49%;
+}
+
+.antibacterial_glove .row .col {
+    width: 100%;
+}
+
+.antibacterial_glove .row .col img {
+    width: 70%;
+    padding-left: 50px;
+}
+
+.antibacterial_glove .row .col h1 {
+    font-size: 55px;
+    color: #103178;
+    padding-left: 70px;
+    font-family: "roboto_bold";
+}
+
+.antibacterial_glove .row .col p {
+    font-size: 22px;
+    color: #103178;
+    padding-left: 70px;
+    font-family: "roboto_regular";
+}
+
+.antibacterial_glove .row .col h4 {
+    color: #5b6c8f;
+    padding-left: 30px;
+    display: inline;
+    font-size: 17px;
+    padding-left: 70px;
+    font-family: "roboto_medium";
+}
+.antibacterial_glove .row .col a {
+    border: 1px solid #ffc800;
+    background-color: #ffc800;
+    padding: 15px 45px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 70px;
+    font-family: "roboto_medium";
+}
+
+.antibacterial_glove .row .col a:hover {
+    border-width: 3px;
+    background-color: #fff;
+    color: #ffc800;
+}
+
+.popularCategories .container h1 {
+    color: #103178;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    font-family: "roboto_bold";
+}
+
+/* featuredproducts */
+.featuredproducts .container h1 {
+    font-size: 48px;
+    color: #103178;
+    text-align: center;
+    font-family: "roboto_bold";
+}
+
+.featuredproducts .container .row {
+    display: flex;
+    position: relative;
+    left: 20%;
+}
+
+.featuredproducts .container .row .col img {
+    height: 200px;
+    border: 1px solid #efefef;
+}
+.featuredproducts .container .row .col{
+    border:  1px solid #eeeaea;
+    margin-bottom: 10px;
+}
+.featuredproducts .container .row .col img:hover {
+    transform: scale(1.1);
+}
+.featuredproducts .container .row .col h5{
+    color: #103178;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: "roboto_medium";
+}
+.featuredproducts .container .row .col h3{
+    font-size: 22px;
+    color: #103178;
+    padding-left: 10px;
+    font-family: "roboto_medium";
+}
+/* effectivePart */
+.effectivePart {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F0F2F5;
+}
+
+.effectivePart h1 {
+    font-size: 48px;
+    color: #103178;
+    text-align: center;
+    font-family: "roboto_bold";
+}
+
+.effectivePart h4 {
+    font-size: 22px;
+    text-align: center;
+    color: #5b6c8f;
+    font-family: "roboto_medium";
+}
+
+.effectivePart .row {
+    display: flex;
+    flex-basis: 31%;
+}
+
+.effectivePart .row .col {
+    width: 100%;
+    padding-left: 250px;
+    padding-right: 200px;
+}
+
+.effectivePart .row .col h3 {
+    color: #103178;
+    font-size: 22px;
+    font-family: "roboto_medium";
+}
+
+.effectivePart .row .col p {
+    color: #5b6c8f;
+    font-size: 17px;
+    font-family: "roboto_regular";
+}
+
+/* blog */
+.blog .container h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: #103178;
+    text-align: center;
+    font-family: "roboto_bold";
+}
+.blog .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .container .row .col a h5{
+    color: #5b6c8f;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: "roboto_medium";
+}
+.blog .container .row .col h2{
+    font-size: 22px;
+    color: #103178;
+    text-decoration: none;
+    font-family: "roboto_medium";
+}
+.blog .container .row .col img{
+    border-radius: 7px;
+}
+.blog .container .row .col img:hover{
+    transform: scale(1.1);
+}
+/* reviews */
+.reviews{
+    background-color: #F0F2F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.reviews h1{
+    font-size: 48px;
+    text-align: center;
+    color: black;
+}
+.reviews .row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.reviews .row .col{
+    flex-basis: 21%;
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+}
+.reviews .row .col p{
+    color: #103178;
+    font-size: 18px;
+}
+.reviews .row .col h3{
+    color: #103178;
+    font-size: 18px;
+}
+.reviews .row .col i{
+    display: inline;
+    color: #ffc800;
+}
+/* footer */
+footer {
+    background-color: #143b90;
+    margin-top: 30px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-family: "roboto medium";
+    color: #fff;
+    font-family: "roboto_medium";
+}
+
+footer p {
+    font-size: 17px;
+    font-family: "Roboto Regular";
+}
+
+footer i {
+    font-size: 20px;
+    padding: 5px;
+    color: #000000;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "roboto_medium";
+}
+footer p{
+    color: #fff;
+    font-family: "roboto_regular";
+}
+footer input {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-color: #000000;
+}
+
+footer input::placeholder {
+    color: #000000;
+}
+
+footer input:hover {
+    background-color: #ffffff;
+    border-color: #f60000;
+}
+
+.subscribe {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.subscribe:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.quickLinks {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #fff;
+}
+@media only screen and (max-width:768px) {
+    header {
+        display: block;
+        position: relative;
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+        padding: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    .main_part .row .col {
+        display: block;
+    }
+
+    img {
+        width: 100%;
+    }
+    .main_part .row .col h1 {
+        font-size: 30px;
+    }
+
+    .main_part .row .col p {
+        padding-left: 35px;
+        font-size: 19px;
+    }
+
+    .main_part .row .col a {
+        padding: 7px 30px;
+    }
+
+    .main_part .row .col img {
+        padding-top: 100px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .popularCategories .container .row {
+        display: block;
+    }
+
+    .popularCategories .container .row .col img {
+        padding-left: 5px;
+        width: 50%;
+    }
+    .services .container .row{
+        display: block;
+    }
+    .services .container .row .col{
+        width: 100px;
+    }
+    .services .container .row .col img{
+        padding-left: 50%;
+    }
+    .services .container .row .col h5{
+        padding-left: 60%;
+    }
+    .antibacterial_glove .row{
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .antibacterial_glove .row .col h1{
+        font-size: 24px;
+    }
+    .antibacterial_glove .row .col img{
+        padding-top: 30px;
+    }
+    .featuredproducts .container .row{
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .effectivePart .row{
+        display: block;
+    }
+    .effectivePart .row .col{
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .effectivePart .row .col img{
+        width: 100px;
+        padding-left: 30%;
+    }
+    .effectivePart .row .col h3{
+        padding-left: 30%;
+    }
+    .blog .container .row{
+        display: block;
+    }
+    .reviews .row{
+        display: block;
+        padding-left: 10px;
+    }
+    .reviews .row .col{
+        margin-bottom: 10px;
+    }
+    footer .row {
+        padding: 10px 15px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 960px){
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

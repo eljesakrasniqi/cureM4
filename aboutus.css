@@ -1,0 +1,294 @@
+header,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "roboto_bold";
+    src: url("../font/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "roboto_regular";
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "roboto_medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+.container {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    font-family: "roboto_regular";
+}
+
+header ul li {
+    padding-left: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: fixed;
+    left: 70%;
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+    font-family: "roboto_regular";
+}
+
+header ul li a:hover {
+    color: #919191;
+    border-bottom: 1px solid #000000;
+}
+
+header img {
+    width: 130px;
+    border-radius: 18px;
+}
+
+.sign_in a {
+    border: 1px solid #103178;
+    background-color: #143b90;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.sign_in a:hover {
+    background-color: #3560bb;
+    color: #000000;
+}
+
+.aboutUs h1 {
+    margin-top: 80px;
+    font-size: 45px;
+    text-align: center;
+    font-family: "roboto_bold";
+}
+
+.aboutUs p {
+    font-size: 20px;
+    font-family: "roboto_regular";
+}
+
+.aboutUs img {
+    margin-bottom: 20px;
+}
+
+.ourMission .row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f0f0;
+}
+
+.ourMission h1 {
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 130px;
+    font-family: "roboto_bold";
+}
+
+.ourMission p {
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 80px;
+    font-family: "roboto_regular";
+}
+
+/* footer */
+footer {
+    background-color: #143b90;
+    margin-top: 30px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-family: "roboto medium";
+    color: #fff;
+}
+
+footer p {
+    font-size: 17px;
+    font-family: "roboto_regular";
+}
+
+footer i {
+    font-size: 20px;
+    padding: 5px;
+    color: #000000;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    font-family: "roboto_regular";
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-color: #000000;
+}
+
+footer input::placeholder {
+    color: #000000;
+}
+
+footer input:hover {
+    background-color: #ffffff;
+    border-color: #f60000;
+}
+
+.subscribe {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.subscribe:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.quickLinks {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #fff;
+}
+
+.learnMore .container h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #143b90;
+}
+
+.learnMore .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learnMore .container .row .col {
+    flex-basis: 32%;
+    width: 100%;
+}
+
+.learnMore .container .row .col a {
+    text-decoration: none;
+    color: #103178;
+}
+
+.learnMore .container .row .col img {
+    height: 200px;
+}
+
+.more a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #103178;
+    padding: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        display: block;
+        position: relative;
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+        padding: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutUs p {
+        font-size: 16px;
+    }
+
+    .aboutUs img {
+        width: 100%;
+    }
+
+    .ourMission .row {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .ourMission .row .col h1 {
+        padding-left: 10px;
+        font-size: 35px;
+    }
+
+    .ourMission .row .col p {
+        padding-left: 10px;
+    }
+
+    .ourMission .row .col img {
+        width: 100%;
+    }
+
+    .learnMore .container .row {
+        display: block;
+    }
+
+    footer .row {
+        padding: 10px 15px;
+        display: block;
+    }
+}
